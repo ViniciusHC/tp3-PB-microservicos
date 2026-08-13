@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+
+button {
+  padding: 12px;
+  background-color: #c75033;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.lista-jogos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-jogo {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.card-jogo p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.card-jogo button{
+  background-color: #c49528;
+}
+
+.buscadorDeJogos{
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.buscadorDeJogos button{
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao_forum{
+  margin: 10px;
+}
