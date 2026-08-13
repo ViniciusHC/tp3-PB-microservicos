@@ -1,0 +1,6 @@
+INSERT INTO topico (id_usuario, titulo, texto, data_criacao) VALUES
+                                                                 (1, 'Qual o melhor jogo para iniciantes?', 'Estou começando agora em board games e queria recomendações de jogos mais simples para começar.', '2026-08-01 10:00:00'),
+                                                                 (2, 'Catan ainda vale a pena em 2026?', 'Vejo muita gente falando de jogos mais modernos, mas Catan continua sendo referência? Vale comprar hoje?', '2026-08-03 14:30:00'),
+                                                                 (1, 'Dicas para guardar miniaturas', 'Alguém tem dicas de organização para jogos com muitas miniaturas, tipo Tainted Grail?', '2026-08-05 09:15:00'),
+                                                                 (3, 'Grupo para jogar às quintas', 'Estou montando um grupo fixo para jogar toda quinta à noite. Alguém interessado?', '2026-08-07 18:45:00'),
+                                                                 (2, 'Melhores jogos cooperativos', 'Quais board games cooperativos vocês recomendam para jogar com a família?', '2026-08-10 20:00:00');

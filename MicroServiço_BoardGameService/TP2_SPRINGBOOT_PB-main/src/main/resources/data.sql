@@ -1,0 +1,2 @@
+INSERT INTO tb_boardgame (nome, descricao, editora, tipo, data_lancamento, data_criacao, criado_por, data_atualizacao, atualizado_por)
+VALUES ('Catan', 'Jogo de estratégia e negociação de recursos', 'Devir', 'Estratégia', '1995', CURRENT_TIMESTAMP, 'SEED', CURRENT_TIMESTAMP, 'SEED');
